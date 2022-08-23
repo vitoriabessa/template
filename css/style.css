@@ -11,7 +11,7 @@
   /* 
   ESTILOS DO BANNER */
   .banner {
-    background: url("/img/banner-bg.png") center no-repeat;
+    background: url("./img/banner-bg.png") center;
     background-size: cover;
     height: 90vh;
     text-align: center;
@@ -38,7 +38,7 @@
   }
   
   .btn-branco{
-      color: #f58744;
+      color: #8e9a44;
       background-color: white;
   }
   
@@ -71,7 +71,7 @@
   
   .sobre__titulo{
       font-size: 4rem;
-      color: #f58744;
+      color: #8e9a44;
   }
   
   .sobre__descricao-div{
@@ -104,8 +104,8 @@
   }
   
   .btn-roxo{
-      color: #f58744;
-      border: 1px solid #f58744;
+      color: #8e9a44;
+      border: 1px solid #8e9a44;
   }
   
   ul{
@@ -128,7 +128,7 @@
   .redes__sociais-item{
       display: inline-block;
       width: 20%;
-      background-color: #f58744;
+      background-color: #8e9a44;
       padding: 2rem 0;
       margin: 0 1rem;
       text-align: center;
