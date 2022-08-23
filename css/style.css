@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: "Raleway", Arial, Helvetica, sans-serif;
+      margin: 0;
+  }
+  
+  
+  /* 
+  ESTILOS DO BANNER */
+  .banner {
+    background: url("/img/banner-bg.png") center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding: 20rem;
+    color: white;
+  }
+  
+  .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      margin-top: 10rem;
+  }
+  
+  .banner__titulo {
+      font-size: 5rem;
+  }
+  
+  .banner__subtitulo {
+      font-size: 2.3 rem;
+  }
+  
+  .u-margin-bottom-peq {
+      margin-bottom: 2rem;
+  }
+  
+  .btn-branco{
+      color: #f58744;
+      background-color: white;
+  }
+  
+  .btn{
+      border-radius: 3rem;
+      text-transform: uppercase;
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+  
+  p{
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  /* SEÇÃO SOBRE */
+  
+  .sobre__div{
+      margin: 15rem;
+      margin-top: 10 rem;
+  }
+  
+  .sobre__titulo{
+      font-size: 4rem;
+      color: #f58744;
+  }
+  
+  .sobre__descricao-div{
+      width: 40%;
+      display: inline-block;
+      line-height: 1.5;
+  }
+  
+  .sobre__descricao-texto{
+      font-size: 1.6rem;
+  }
+  
+  .sobre__descricao-destaque{
+      font-size: 2rem;
+  }
+  
+  .sobre__habilidades-div{
+      display: inline-block;
+      margin-left: 10rem;
+  }
+  
+  .sobre__habilidades-titulo{
+      font-size: 2rem;
+  }
+  
+  .sobre__habilidades-lista{
+      padding-left: 2rem;
+      line-height: 2;
+      font-size: 1.6rem;
+  }
+  
+  .btn-roxo{
+      color: #f58744;
+      border: 1px solid #f58744;
+  }
+  
+  ul{
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  
+  /* SEÇÃO REDES SOCIAIS */
+  
+  .footer{
+      text-align: center;
+      margin-bottom: 10rem;
+  }
+  
+  .redes__sociais-item{
+      display: inline-block;
+      width: 20%;
+      background-color: #f58744;
+      padding: 2rem 0;
+      margin: 0 1rem;
+      text-align: center;
+      color: white;
+  }
+  
+  .redes__sociais-img{
+      margin-bottom: 0.5rem;
+  }
+  
+  h3{
+      font-size: 2.5rem;
+  }
